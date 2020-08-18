@@ -1,0 +1,30 @@
+ function wakeDog (a  ,  b ) => {
+      const a = "Xerox"
+      const b = "Border Collie"
+      expect(wakeDog(a,b)).to.equal(`Wake ${a} the ${b}`
+    }
+    it("has a function leashDog", () => {
+      const a = "Boo Radley"
+      const b = "Pibble"
+      expect(leashDog(a, b)).to.equal(`Leash ${a} the ${b}`)
+    })
+    it("has a function walkToPark", () => {
+      const a = "Bunny"
+      const b = "Labrador"
+      expect(walkToPark(a, b)).to.equal(`Walk to the park with ${a} the ${b}`)
+    })
+    it("has a function throwFrisbee", () => {
+      const a = "Mary J. Blige"
+      const b = "Papillon"
+      expect(throwFrisbee(a, b)).to.equal(`Throw the frisbee for ${a} the ${b}`)
+    })
+    it("has a function walkHome", () => {
+      const a = "Santa Paws"
+      const b = "Husky"
+      expect(walkHome(a, b)).to.equal(`Walk home with ${a} the ${b}`)
+    })
+    it("has a function unleashDog", () => {
+      const a = "Lauren"
+      const b = "Golden Retriever"
+      expect(unleashDog(a, b)).to.equal(`Unleash ${a} the ${b}`)
+    })
